@@ -311,7 +311,7 @@ class Router
             
             $mapped = $this->app->map($methods, $this->globalRoutePrefix . $route->getRoute(),
                 function (ServerRequestInterface $request, ResponseInterface $response, $arguments) use ($route, $router) {
-                    $constructorArgs = $router->getMethodArgumentsByArguments($route->getConstructorArguments());
+                    $constructorArgs = $router->getMethodArgumentsByArguments($route->getConstructorArguments(), $request, $response);
                     $methodArgs =
                         $router->getMethodArgumentsByArguments($route->getArguments(), $request, $response, $arguments);
 
