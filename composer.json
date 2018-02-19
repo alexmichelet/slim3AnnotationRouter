@@ -1,9 +1,9 @@
 {
-  "name": "giacomofurlan/slim3annotation-router",
+  "name": "alexmichelet/slim-annotation-routing",
   "type": "library",
-  "description": "Enables to define routes via the @Route(...) annotation",
+  "description": "Enables to define routes via the @Route(...) annotation (forked from giacomofurlan/slim3annotation-router)",
   "keywords": ["route", "slim3", "annotation"],
-  "homepage": "https://github.com/elegos",
+  "homepage": "https://github.com/alexmichelet/slim3AnnotationRouter",
   "license": "GNU GPL v3",
   "authors": [
     {
@@ -11,11 +11,21 @@
       "email": "giacomo@giacomofurlan.name",
       "homepage": "http://giacomofurlan.name",
       "role": "developer"
+    },
+    {
+      "name": "Jonathan 'maisoui'",
+      "homepage": "https://github.com/maisoui",
+      "role": "developer"
+    },
+    {
+      "name": "Alex Michelet",
+      "homepage": "https://github.com/alexmichelet",
+      "role": "developer"
     }
   ],
   "autoload": {
     "psr-4": {
-      "giacomofurlan\\slim3AnnotationRouter\\": "src"
+      "SlimAnnotationRouting\\": "src"
     }
   },
   "require": {
@@ -24,6 +34,6 @@
   },
   "repositories": {
     "type": "vcs",
-    "url": "https://github.com/elegos/slim3AnnotationRouter.git"
+    "url": "https://github.com/alexmichelet/slim3AnnotationRouter.git"
   }
 }

@@ -17,7 +17,7 @@
  * along with slim3AnnotationRouter.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace giacomofurlan\slim3AnnotationRouter;
+namespace SlimAnnotationRouting;
 
 use Interop\Container\ContainerInterface;
 use Psr\Http\Message\ResponseInterface;
