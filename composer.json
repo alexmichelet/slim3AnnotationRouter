@@ -1,7 +1,7 @@
 {
-  "name": "alexmichelet/slim-annotation-routing",
+  "name": "giacomofurlan/slim3annotation-router",
   "type": "library",
-  "description": "Enables to define routes via the @Route(...) annotation (forked from giacomofurlan/slim3annotation-router)",
+  "description": "Enables to define routes via the @Route(...) annotation)",
   "keywords": ["route", "slim3", "annotation"],
   "homepage": "https://github.com/alexmichelet/slim3AnnotationRouter",
   "license": "GNU GPL v3",
